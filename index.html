@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Quiz! - Players login</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/1200px-Blue_question_mark_icon.svg.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1 class="bg-primary">Game</h1>
+            <h3 class="btn-success start_login">Player login</h3>
+            <div class="col-lg-4 col-md-8 col-sm-11 login_div1">
+                <h3 class="whitener">Player 1 Login for the game</h3>
+                <label class="whitener">Player 1 Username</label>
+                <input type="text" class="form-control" id="player1_name" placeholder="Player 1 Name">
+                <br>
+            </div>
+            <br>
+            <div class="col-lg-4 col-md-8 col-sm-11 login_div2">
+                <h3 class="whitener">Player 2 Login for the game</h3>
+                <label class="whitener">Player 2 Username</label>
+                <input type="text" class="form-control" id="player2_name" placeholder="Player 2 Name">
+                <br>
+            </div>
+            <br>
+            <button style="width:30%" type="button" class="btn btn-info" id="button_submit" onclick="login()">Login</button>
+        </center>
+    </body>
+</html>

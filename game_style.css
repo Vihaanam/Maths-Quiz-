@@ -1,0 +1,36 @@
+body {
+    background-color: orange;
+}
+#player1_name, #player2_name {
+    margin-left: 20px;
+    display: inline-block;
+}
+h1 {
+    width: 300px;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 40px;
+}
+#player_question, #player_answer {
+    font-size: 30px;
+}
+#output {
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: yellow;
+    border-top-width: 10px;
+    border-left-width: 8px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 60%;
+}
+.word_answer {
+	width: 60%;
+}
+#button_send {
+    margin-bottom: 20px;
+}

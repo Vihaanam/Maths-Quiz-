@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Quiz!</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/1200px-Blue_question_mark_icon.svg.png">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="game_style.css">
+    </head>
+    <body>
+        <h4 id="player1_name"></h4><span id="player_score_1"></span>
+        <br>
+        <h4 id="player2_name"></h4><span id="player_score_2"></span>
+        <center>            
+            <h1 class="bg-primary">Maths Quiz</h1>
+            <br>
+            <div id="player_question"></div>
+            <div id="player_answer"></div>
+            <br>
+            <div id="output"></div>
+            <br>
+            <br>
+            <label><b>Send yourself a multiplication question</b></label>
+            <br>
+            <br>
+            <h4>Number 1</h4>
+            <input type="number" id="word1" class="form-control word_answer" placeholder="Number 1">
+            <br>
+            <h4>Number 2</h4>
+            <input type="number" id="word2" class="form-control word_answer" placeholder="Number 2">
+            <br>
+            <br>
+            <button id="button_send" onclick="send()" type="button" class="btn btn-success" style="width:30%">Send</button>
+        </center>
+        <script src="game_js.js"></script>
+    </body>
+</html>
